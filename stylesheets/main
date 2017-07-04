@@ -27,15 +27,30 @@ img.icon {
   width: 83px; }
 img.appstore {
   width: 200px; }
+  img.appstore:hover {
+    opacity: 0.8; }
 img.thumbnails {
   width: 153px; }
-
+  img.thumbnails:hover {
+    animation: pulse 1s linear; }
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1); }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    transform: scale3d(1, 1, 1); } }
 #iphone {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 286px; }
-
+  width: 286px;
+  animation: fadeIn 2s linear; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 .content {
   max-width: 840px;
   margin: 0 auto; }
