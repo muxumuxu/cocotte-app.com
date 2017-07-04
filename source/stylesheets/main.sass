@@ -29,14 +29,32 @@ img
     width: 83px
   &.appstore
     width: 200px
+    &:hover
+      opacity: 0.8
   &.thumbnails
     width: 153px
+    &:hover
+      animation: pulse 1s linear
+      @keyframes pulse
+        from
+          transform: scale3d(1, 1, 1)
+        50%
+          transform: scale3d(1.05, 1.05, 1.05)
+        to
+          transform: scale3d(1, 1, 1)
 
 #iphone
   position: absolute
   left: 0
   bottom: 0
   width: 286px
+  animation: fadeIn 2s linear
+  @keyframes fadeIn
+    from
+      opacity: 0
+
+    to
+      opacity: 1
 
 .content
   max-width: 840px
