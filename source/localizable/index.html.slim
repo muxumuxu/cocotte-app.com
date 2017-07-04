@@ -1,1 +1,41 @@
-h1 = t 'title'
+.wrapper.hero
+  .content
+    = image_tag "iphone.png", alt: "iPhone", id: "iphone"
+    = image_tag "icon.svg", alt: "icon", class: "icon"
+    h1 = t 'hero.title'
+    h2 = t 'hero.subtitle'
+    = link_to t 'hero.link'
+      = image_tag "appstore.svg", alt: "App Store", class: "appstore"
+
+.wrapper.screens
+  .content
+    ul 
+      li 
+        = image_tag "icon-search.svg", alt: "search"
+        p = t 'screens.search'
+        = image_tag "iphone-search.png", alt: "Iphone search", class: "thumbnails"
+      li 
+        = image_tag "icon-list.svg", alt: "search"
+        p = t 'screens.list'
+        = image_tag "iphone-list.png", alt: "Iphone search", class: "thumbnails"
+      li 
+        = image_tag "icon-star.svg", alt: "search"
+        p = t 'screens.star'
+        = image_tag "iphone-star.png", alt: "Iphone search", class: "thumbnails"
+    = link_to t 'hero.link'
+      = image_tag "appstore.svg", alt: "App Store", class: "appstore"
+
+footer 
+  p = t 'footer.doctor'
+  p.about 
+    = link_to t 'footer.contact.link'
+      = t 'footer.contact.title'
+    = "|"
+    = link_to(t('footer.instagram.link'), target: "_blank")
+      = t 'footer.instagram.title'
+    = "|"
+    = link_to(t('footer.facebook.link'), target: "_blank")
+      = t 'footer.facebook.title'
+    = "|"
+    = link_to(t('footer.muxu.link'), target: "_blank")
+      = t 'footer.muxu.title'

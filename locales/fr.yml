@@ -1,2 +1,25 @@
 fr:
-  title: Bienvenue !
+  hero:
+    title: Quels aliments peut-on manger pendant la grossesse ?
+    subtitle: |
+      Découvrez Cocotte, une application pour les femmes enceintes et leur entourage.
+    link: https://itunes.apple.com/fr/app/coach-nourriture-enceinte/id1148406816?ls=1&mt=8
+  screens:
+    search: Recherchez un aliment
+    list: Consultez sa fiche détaillée
+    star: Créez votre liste de favoris
+  footer:
+    doctor: |
+      Ces recommandations sont données à titre indicatif et ne peuvent remplacer l'avis de votre médecin.
+    contact:
+      link: "mailto:cocotte@muxumuxu.com"
+      title: Nous contacter
+    instagram:
+      link: "https://www.instagram.com/appcocotte/"
+      title: "Instagram"
+    facebook:
+      link: "https://www.facebook.com/Cocotte-1830055250543151/"
+      title: "Facebook"
+    muxu:
+      link: "https://www.muxumuxu.com"
+      title: "Muxu.Muxu"
