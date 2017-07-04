@@ -39,7 +39,7 @@ img
   width: 286px
 
 .content
-  width: 840px
+  max-width: 840px
   margin: 0 auto
   ul
     list-style: none
@@ -80,3 +80,28 @@ footer
       &:hover
         padding-bottom: 3px
         border-bottom: 2px solid #FF0079
+
+@media screen and (max-width: 840px)
+
+  #iphone
+    display: none
+
+  .wrapper.hero
+    .content
+      padding: 120px 20px
+      width: auto
+      height: auto
+      position: relative
+      text-align: center
+
+  footer
+    .about
+      margin-top: 40px
+      span
+        display: none
+      a
+        display: block
+        margin-bottom: 25px
+        &:hover
+          padding: 0
+          border: 0
