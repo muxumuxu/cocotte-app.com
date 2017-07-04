@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>list</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,22.5 L8.84050201,25.7382397 C7.37292635,26.5097899 6.41031338,25.811206 6.69071669,24.1763293 L7.86707613,17.3176275 L2.88393758,12.4602679 C1.69664393,11.3029426 2.06357295,10.1715689 3.7050825,9.93304365 L10.5916106,8.93237254 L13.6713596,2.69211949 C14.4051474,1.20530295 15.594535,1.20465951 16.3286404,2.69211949 L19.4083894,8.93237254 L26.2949175,9.93304365 C27.935717,10.1714658 28.3038699,11.3024417 27.1160624,12.4602679 L22.1329239,17.3176275 L23.3092833,24.1763293 C23.5895653,25.8104988 22.6277088,26.5101238 21.159498,25.7382397 L15,22.5 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28.5316955" height="27.1352549" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="website" transform="translate(-907.000000, -701.000000)" stroke="#A4AAB3" stroke-width="6">
+            <g id="catégorie" transform="translate(200.000000, 699.000000)">
+                <g id="item" transform="translate(627.000000, 1.000000)">
+                    <g id="list" transform="translate(78.000000, 0.000000)">
+                        <use id="start" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
