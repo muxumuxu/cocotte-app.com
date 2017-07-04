@@ -37,7 +37,7 @@ img.thumbnails {
   width: 286px; }
 
 .content {
-  width: 840px;
+  max-width: 840px;
   margin: 0 auto; }
   .content ul {
     list-style: none;
@@ -76,3 +76,25 @@ footer {
     footer .about a:hover {
       padding-bottom: 3px;
       border-bottom: 2px solid #FF0079; }
+
+@media screen and (max-width: 840px) {
+  #iphone {
+    display: none; }
+
+  .wrapper.hero .content {
+    padding: 120px 20px;
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center; }
+
+  footer .about {
+    margin-top: 40px; }
+    footer .about span {
+      display: none; }
+    footer .about a {
+      display: block;
+      margin-bottom: 25px; }
+      footer .about a:hover {
+        padding: 0;
+        border: 0; } }
